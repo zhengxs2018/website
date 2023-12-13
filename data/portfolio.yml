@@ -1,0 +1,42 @@
+portfolioitems:
+  - title: 开源项目
+    portfolioitem:
+      - name: '@zhengxs/ai'
+        image: '/images/portfolio/code.jpg'
+        link: https://github.com/zhengxs2018/ai
+        linktext: 'View on GitHub'
+        description: '集成 百度文心一言，阿里通义千问，腾讯混元助手 和 讯飞星火认知 等国内大模型的 API，并且适配 OpenAI 的输入与输出。'
+        tags:
+          - ai
+          - api
+        status: 'Stable'
+        start: '2023/11/30'
+        authors:
+          - zhengxs
+      - name: '@zhengxs/wechaty-plugin-assistant'
+        image: '/images/portfolio/code.jpg'
+        link: https://github.com/zhengxs2018/wechaty-plugin-assistant
+        linktext: 'View on GitHub'
+        description: '使用 wechaty 开发的聊天助手插件，内置多种AI大模型，只需三步即可轻松创建一个智能对话机器人。'
+        tags:
+          - wechaty
+          - wechaty-plugin
+          - ai
+          - assistant
+        status: 'Stable'
+        start: '2023/11/06'
+        authors:
+          - zhengxs
+      - name: '@zhengxs/js.tree'
+        image: '/images/portfolio/code.jpg'
+        link: https://github.com/zhengxs2018/js.tree
+        linktext: 'View on GitHub'
+        description: '一个循环解决行转树的问题，快速，轻量，无依赖。'
+        tags:
+          - tree
+          - array
+          - structures
+        status: 'Stable'
+        start: '2021/04/30'
+        authors:
+          - zhengxs

@@ -1,0 +1,34 @@
+title: '阿森'
+keywords: 'zhengxs,blog,article'
+description: '欢迎来到我的博客'
+author: 阿森
+
+# Anatole Theme
+customCss: ['css/styles.css']
+
+profilePicture: 'images/profile.png'
+mainSections: []
+
+readMore: true
+contentRatio: 0.7
+reversePageTitle: true
+doNotLoadAnimations: true
+enableMediumZoom: false
+
+relatedPosts:  true
+numberOfRelatedPosts:  3
+
+mermaid:
+  enable: true
+
+giscus:
+  repo:  "zhengxs2018/website"
+  repoID:  "R_kgDOK5Va9A"
+  category:  "Giscus"
+  categoryID:  "DIC_kwDOK5Va9M4CbtdG"
+  inputPosition: "top"
+
+socialIcons:
+  - title: 'Github'
+    icon: 'fab fa-github'
+    url: 'https://github.com/zhengxs2018'

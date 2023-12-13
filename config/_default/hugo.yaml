@@ -1,0 +1,56 @@
+# Hugo config file
+# See https://gohugo.io/getting-started/configuration
+
+# Site Data
+baseURL: "https://zhengxs.cn/"
+title: "Hi there 👋"
+
+# Theme
+theme: "anatole"
+
+# i18n
+hasCJKLanguage: true
+languageCode: "zh-Hans-CN"
+defaultContentLanguage: "zh-cn"
+defaultContentLanguageInSubdir: true
+enableMissingTranslationPlaceholders: true
+
+# 分类
+taxonomies:
+  category: "categories"
+  tag: "tags"
+  series: "series"
+
+# 相关文章
+related:
+  includeNewer:  true
+  threshold:  80
+  toLower:  true
+  indices:
+    - name:  'keywords'
+      weight:  100
+    - name:  'tags'
+      weight:  80
+
+# Markdown
+markup:
+  highlight:
+    style: "vs"
+
+# 图片
+imaging:
+  quality: 75
+  exif:
+    disableDate: false
+    disableLatLong: false
+
+# 通用
+cleanDestinationDir: true
+summarylength: 10
+
+enableEmoji: true
+enableRobotsTXT: true
+enableInlineShortcodes: true
+
+disableHugoGeneratorInject: true
+disableSitemap: false
