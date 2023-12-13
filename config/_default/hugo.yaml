@@ -5,15 +5,27 @@
 baseURL: "https://zhengxs.cn/"
 title: "Hi there 👋"
 
+menus:
+  main:
+    - name: "首页"
+      url: "/"
+      identifier: "home"
+      weight: 100
+    - name: "文章"
+      url: "/posts/"
+      identifier: "posts"
+      weight: 200
+    - name: "开源项目"
+      url: "/portfolio/"
+      identifier: "portfolio"
+      weight: 300
+    - name: "关于"
+      url: "/about/"
+      identifier: "about"
+      weight: 400
+
 # Theme
 theme: "anatole"
-
-# i18n
-hasCJKLanguage: true
-languageCode: "zh-Hans-CN"
-defaultContentLanguage: "zh-cn"
-defaultContentLanguageInSubdir: true
-enableMissingTranslationPlaceholders: true
 
 # 分类
 taxonomies:
