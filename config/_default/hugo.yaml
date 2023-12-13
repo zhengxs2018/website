@@ -7,10 +7,6 @@ title: "Hi there 👋"
 
 menus:
   main:
-    - name: "首页"
-      url: "/"
-      identifier: "home"
-      weight: 100
     - name: "文章"
       url: "/posts/"
       identifier: "posts"
@@ -19,10 +15,10 @@ menus:
       url: "/portfolio/"
       identifier: "portfolio"
       weight: 300
-    - name: "关于我"
-      url: "/about/"
-      identifier: "about"
-      weight: 400
+    - name: "关于"
+      url: "/"
+      identifier: "home"
+      weight: 100
 
 # Theme
 theme: "anatole"
@@ -48,6 +44,9 @@ related:
 markup:
   highlight:
     style: "vs"
+  goldmark:
+    renderer:
+      unsafe: true
 
 # 图片
 imaging:
