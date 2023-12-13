@@ -15,11 +15,11 @@ menus:
       url: "/posts/"
       identifier: "posts"
       weight: 200
-    - name: "开源项目"
+    - name: "我的开源"
       url: "/portfolio/"
       identifier: "portfolio"
       weight: 300
-    - name: "关于"
+    - name: "关于我"
       url: "/about/"
       identifier: "about"
       weight: 400
