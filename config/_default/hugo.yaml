@@ -3,7 +3,7 @@
 
 # Site Data
 baseURL: "https://zhengxs.cn/"
-title: "Hi there 👋"
+title: "阿森的博客"
 
 menus:
   main:
